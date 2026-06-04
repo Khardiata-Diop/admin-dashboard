@@ -12,13 +12,48 @@ body{
 .grid{
     display: grid;
     gap : 15px;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 250px 500px;
 }
-    
+
+/* SIDEBAR */
+
 .sidebar{
     grid-column: 1/8;
-    border : 1px solid red;
+    border : none;
     height : 100vh;
+    border: solid 1px #00a6fa;
     background-color : #00a6f4;
-    color : white;
+    color : white; 
 }
+
+.logo{
+    display : flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content: space-around;
+    margin: 20px 20px 20px 5px;
+    padding: 0 20px 0 0;
+
+}
+
+.logo h1{
+    font-size: 30px;
+}
+
+.ul-sidebar{
+    list-style: none;
+    margin: 50px 0 0 0;
+}
+
+.li-sidebar{
+   font-size: 18px;
+   margin : 10px 0;
+
+}
+
+.bottom-li{
+    margin-top: 70px;
+    
+}
+
+
