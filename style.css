@@ -65,8 +65,7 @@ body{
 /* HEADER */
 .header{
     background-color: white;
-    border : 1px solid red;
-    height: 30vh;
+    height: 12vh;
     
 }
 
@@ -122,10 +121,18 @@ body{
     width : 80px;
 }
 
-.welcoming-area{
+.welcoming-area, .welcoming-area-right{
     justify-content: space-between;
 }
 
+.welcoming-area-right{
+    width : 40%;
+}
+
+.welcoming-area-left{
+    justify-content: center;
+    width : 60%;
+}
 
 /* MAIN */
 .main{
