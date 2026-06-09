@@ -18,10 +18,9 @@ body{
 /* SIDEBAR */
 
 .sidebar{
-    grid-column: 1/8;
+    grid-column: 1/4;
     border : none;
     height : 100vh;
-    border: solid 1px #00a6fa;
     background-color : #00a6f4;
     color : white; 
 }
@@ -31,13 +30,18 @@ body{
     flex-direction: row;
     align-items : center;
     justify-content: space-around;
-    margin: 20px 20px 20px 5px;
-    padding: 0 20px 0 0;
+    margin: 20px 20px 20px 40px;
+    
 
+}
+
+.left{
+    background-color: #00a6f4;
 }
 
 .logo h1{
     font-size: 30px;
+    margin-left: 10px;
 }
 
 .ul-sidebar{
@@ -47,7 +51,7 @@ body{
 
 .li-sidebar{
    font-size: 18px;
-   margin : 10px 0;
+   margin : 10px;
 
 }
 
@@ -56,4 +60,14 @@ body{
     
 }
 
+/* HEADER */
+.header{
+    background-color: white;
+}
+
+
+/* MAIN */
+.main{
+    background-color: grey;
+}
 
